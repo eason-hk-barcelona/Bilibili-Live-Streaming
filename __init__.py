@@ -48,7 +48,7 @@ def generate_cloud(uid):
 
 
 def uid_search(uid):
-    ##  定义key, type0为评论，2为消费，4为进场消息
+    #  定义key, type0为评论，2为消费，4为进场消息
     keys = ['cUid', 'cUname', 'cParentArea', 'cArea', 'type', 'sendDate', 'message', 'price', 'count']
     df = pd.DataFrame(columns=keys)
 
@@ -101,8 +101,8 @@ def uid_search(uid):
 
 
 # uid_range
-start_uid = 210097
-end_uid = 210098
+start_uid = 210000
+end_uid = 210100
 for i in range(start_uid, end_uid):
     print(i)
     uid_search(i)
