@@ -1,2 +1,1 @@
-# Bilibili-Live-Streaming
-Bilibili Live Streaming Data Statistics（web mining）
+# Bilibili Live Streaming Data Statistics
